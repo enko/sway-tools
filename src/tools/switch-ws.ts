@@ -73,6 +73,7 @@ async function main() {
     const rofi = child_process.exec('rofi -dmenu -i -p "Select a Window" -format');
 
     rofi.stdin.write(dmenu);
+    rofi.stdin.end()
 
     let output = '';
 
