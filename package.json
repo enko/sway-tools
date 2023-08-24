@@ -1,6 +1,6 @@
 {
   "name": "sway-tools",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Some tools and a library for controlling sway",
   "main": "dist/index.js",
   "scripts": {
