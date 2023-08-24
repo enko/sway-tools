@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "switch-ws": "node -r ts-node/register src/tools/switch-ws.ts"
+    "switch-ws": "node -r ts-node/register src/tools/switch-ws.ts",
+    "eslint": "eslint"
   },
   "bin": {
     "change-bg": "bin/change-bg.js",
@@ -26,6 +27,12 @@
     "@types/minimist": "1.2.2",
     "@types/node": "20.4.2",
     "@types/shelljs": "0.8.12",
+    "@typescript-eslint/eslint-plugin": "6.4.1",
+    "@typescript-eslint/parser": "6.4.1",
+    "eslint": "8.47.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "prettier": "3.0.2",
     "ts-node": "10.9.1",
     "typescript": "5.1.6"
   },
