@@ -10,7 +10,8 @@
   "bin": {
     "change-bg": "bin/change-bg.js",
     "focus-nth-output": "bin/focus-nth-output.js",
-    "switch-ws": "bin/switch-ws.js"
+    "switch-ws": "bin/switch-ws.js",
+    "move-ws-to-display": "dist/tools/move-ws-to-output.js"
   },
   "keywords": [
     "sway",
